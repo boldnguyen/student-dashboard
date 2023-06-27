@@ -73,12 +73,6 @@ In summary, the user will have a good understanding of how all 1,000 students pe
 - Increase volume of API source data to increase data analysis capability and have results of analysis in a single view 
 - Explore new social media channels to promote 'data-dashboard'
 
-### Wireframes
-My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'data-dashboard' website responsiveness on mobile, tablet and desktop devices.
-
-•	[Student-Dash](https://github.com/Spagettileg/student-dash/blob/master/wireframes/student-dash_vfinal.zip)
-
-
 ### User Stories
 * It's important for a data set of 1,000 line items to be viewed from within a dashboard design
 * The dashboard must be simple in design and intuitive to help with site navigation
@@ -92,52 +86,6 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 
 ### CSS Framework
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices.
-
-### Colour Palette
-Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attributes of Student-Dash through energy, intelligence, pretention and curiosity
-
-File | Colour         | Hex Code  | Colour Function
------|----------------|-----------|------------------
-CSS  | Light Blue     | #DEE9FC   | Navbar scroll appearance
-CSS  | Powder Blue    | #6395F2   | Navbar scroll appearance
-CSS  | Royal Blue     | #1258DC   | Navbar scroll appearance
-CSS  | Grey Blue      | #236AB9   | Navbar scroll appearance
-CSS  | Blue Ink       | #0A337F   | Navbar scroll appearance
-CSS  | Dark Blue      | #091834   | Navbar scroll appearance
-CSS  | Light Grey     | #E6E6E6   | Social Links
-CSS  | Charcoal Grey  | #343A40   | Footer background colour 
-CSS  | Pink           | #FF99FF   | Female gender icon - keyframe animation
-CSS  | Pink           | #FF66FF   | Female gender icon - keyframe animation
-CSS  | Pink           | #FF33FF   | Female gender icon - keyframe animation
-CSS  | Blue           | #0080FF   | Male gender icon - keyframe animation
-CSS  | Blue           | #0066CC   | Male gender icon - keyframe animation
-CSS  | Blue           | #004D99   | Male gender icon - keyframe animation
-CSS  | Pale Blue      | #E6EEFF   | Data dashbaord background colour
-CSS  | Mid Blue       | #CCDDFF   | Chart background colour
-CSS  | Sky Blue       | #236AB9   | DC Chart select menu
-CSS  | Orange         | #F4511E   | Enter button on homepage
-
-File      | Colour    | Hex Code  | Colour Function
-----------|-----------|-----------|------------------
-graph.js  | Green     | #009900   | Composite line chart
-graph.js  | Blue      | #0066FF   | Composite line chart
-graph.js  | Red       | #CC0000   | Composite line chart
-graph.js  | Green     | #009900   | Math vs Writing - regression chart
-graph.js  | Blue      | #0066FF   | Reading vs Writing - regression chart
-graph.js  | Red       | #CC0000   | Math vs Reading - regression chart
-graph.js  | Blue      | #99CCFF   | Bar chart - Ethnicity Distribution
-graph.js  | Red       | #FF6666   | Bar chart - Ethnicity Distribution
-graph.js  | Yellow    | #FFFF66   | Bar chart - Ethnicity Distribution
-graph.js  | Green     | #99FF99   | Bar chart - Ethnicity Distribution
-graph.js  | Purple    | #CC99FF   | Bar chart - Ethnicity Distribution
-graph.js  | Orange    | #FF9933   | Bar chart - Parents Education
-graph.js  | Blue      | #3366CC   | Pie chart - Source of Student Nutrition
-graph.js  | Green     | #0099CC   | Pie chart - Source of Student Nutrition
-graph.js  | Blue      | #3366CC   | Pie chart - Exam Preparation
-graph.js  | Green     | #0099CC   | Pie chart - Exam Preparation
-
-### Typography
-[Open+Sans](https://fonts.google.com/) & [Sans Serif](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon Graphics
 Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primarily to support information page footer & student gender population summary
@@ -181,20 +129,7 @@ The following technologies were used in the design and build of this project.
 
 •	[Bootswatch](https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css) used to assist in the creation of the responsive grid structure for the site and also to provide some basic CSS styling
 
-### Tools
-•	[AWS Cloud9](https://aws.amazon.com/cloud9/) a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
 
-•	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design.
-
-•	[Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-
-•	[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-•	[Jigsaw - CSS validation](https://jigsaw.w3.org/css-validator/) this validator checks the markup validity of CSS style sheet and ensure coding convention is upheld
-
-•	[JS Hint](https://jshint.com/) a tool that helps to detect errors and potential problems in the javascript code
-
-•	[W3C - HTML validation](https://validator.w3.org/) this validator checks the markup validity of HTML web documents
 
 ## Features
 ### Feature 1 - Enter button on homepage `index.html`
@@ -264,74 +199,7 @@ The following technologies were used in the design and build of this project.
 
 •  	Automate an exam performance summary by publishing an overall average exam score, per subject and a score range, per subject. The scope can be increased by publishing individual student results, once the student selector dropdown box had been clicked and with crossfilter, the exam summary data could be viewed at a demographic level i.e. ethnicity, exam preparations, etc 
 
-## Tests
-Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/data-dashboard/blob/master/TESTS.md) file.
 
-## Deployment
-This project was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to git and pushed to GitHub using the built in function within Cloud9.
-
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/student-dash), the following steps were taken:
-
-1. Log into GitHub
-2. From the list of repositories on the screen, select **Spagettileg/student-dash**
-3. From the menu items near the top of the page, select **Settings**
-4. Scroll down to the **GitHub Pages** section
-5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
-6. On selecting Master Branch the page is automatically refreshed, the website is now deployed
-7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website
-
-### How to run this project locally  
-To clone this project from GitHub:
-
-1. Follow this link to the [Project GitHub repository](https://github.com/Spagettileg/student-dash)
-2. Under the repository name, click **"Clone or download"**
-3. In the **Clone with HTTPs section**, copy the clone URL for the repository
-4. In your local IDE open **Ubuntu Bash**
-5. Change the current working directory to the location where you want the cloned directory to be made
-6. Type `git clone`, and then paste the URL you copied in Step 3
-
-`git clone https://github.com/USERNAME/REPOSITORY`
-
-7. Press Enter. Your local clone will be created.
-
-Further reading and troubleshooting on cloning a repository from [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-
-
-## Credits
-
-### Content
-
-•	All HTML, CSS and most of JS code was written by myself. The site was designed and built in full by myself and can be viewed via the wireframe 
-
-•	The source dataset was obtained from kaggle website user and the specific link can be found here [SERD](https://www.kaggle.com/spscientist/students-performance-in-exams#StudentsPerformance.csv). The process of selecting data was mainly based upon making sure the raw data was as complete as possible, with no gaps that had the potential to skew data analysis. Furthermore, the sample size of 1,000 students was considered significant in supporting meaningful analysis 
-
-•	SpyOn() function was developed with help of [Rob Gravelle's](https://www.htmlgoodies.com/html5/javascript/spy-on-javascript-methods-using-the-jasmine-testing-framework.html) source code 
-
-### Media
-
-•	Favicon image was sourced from [iconsdb.com](www.iconsdb.com)
-
-•   Homepage [student image](https://wallpapersafari.com/w/dmirWc) background
-
-•	404 image – [codepen.io](www.codpen.io)
-
-•	Cogs Background image – [pling.com](https://www.pling.com/p/1216758/)
-
-### Assets
-
-### Acknowledgements 
-[Theo Despoudis](https://www.linkedin.com/in/theofanis-despoudis-7bb30913/) Mentor - For his guidance with the process of delivering my project and reminders for keeping the code simple, yet effective. 
-
-Slack Community and the following experts to keep me honest and focused.
-
-Haley Schafer - Tutor,
-Niel Mcewen - Tutor,
-@JoWings_Lead – Joke Heyndels,
-@Robinz_alumni - Robin Zigmond,
-@Sean - Sean Murphy,
-@Eventyret_mentor - Simen Daehlin,
-@2BN-Tim - Tim Nelson,
-@JohnL3_Alumni - Johnlonggately
 
 Special thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, training delivery and generating good confidence to coding.
 
