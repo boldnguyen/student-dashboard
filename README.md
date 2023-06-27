@@ -6,9 +6,9 @@ The page uses the D3.js library with the DC.js and crossfilter.js libraries to p
 Intriguingly, the user can opt to adapt their view of student data by all, individual or custom data element selection via dropdown list function. 
 
 ***
-Link to the [live](https://spagettileg.github.io/student-dash/ ) website hosted in GitHub Pages 
+Link to the [live](https://boldnguyen.github.io/student-dashboard/ ) website hosted in GitHub Pages 
 
-Link to [GitHub](https://github.com/Spagettileg/student-dash) Repo
+Link to [GitHub](https://github.com/boldnguyen/student-dashboard) Repo
 
 ***
 
